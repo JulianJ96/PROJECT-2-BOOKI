@@ -791,9 +791,8 @@ a{
         width: auto;
         height: 195px;
     }
-    
     .filter-text{
-        align-content: right;
+        padding-left: 4px;
     }
     .information-row {
 		margin: 32px 16px;
