@@ -104,8 +104,11 @@ a{
     width: 96px;
     color:white;
 }
-.fa-magnifying-glass{
+.search-text{
     visibility: visible;
+}
+.fa-magnifying-glass{
+    visibility: hidden;
     position: relative;
     padding-left: 10px;
 }
@@ -764,8 +767,11 @@ a{
         border-radius: 10px 10px 10px 10px;
         width: 10%;
     }
+    .search-text{
+        display: none;
+    }
     .fa-magnifying-glass{
-        visibility:visible;
+        visibility: visible;
 		position: relative;
         align-content: center;
         width: auto;
